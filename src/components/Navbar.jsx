@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import { Link, useNavigate } from "react-router-dom";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const MyNavbar = () => {
   const navigate = useNavigate();

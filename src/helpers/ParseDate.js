@@ -1,5 +1,5 @@
-export const parseDate = (time) => {
-  let d = new Date(time);
+export const parseDate = (UNIX_timestamp) => {
+  let d = new Date(UNIX_timestamp * 1000);
   let datestring =
     ("0" + d.getDate()).slice(-2) +
     "-" +
